@@ -1,4 +1,29 @@
 # Arabic lexical Semantic Relation Daraset (ASRD)
 
 ASRD
-Arabic lexical Semantic Relation Daraset
+Arabic Lexical Semantic Relation Daraset contains over 1.6 million diacratized examples for various semantic relations. 
+## 📚 Selected Resources
+
+Five Arabic semantic resources were used as the foundation for constructing the dataset:
+
+- **Arabic WordNet (AWN)**  
+  A specialized version of the Princeton WordNet (PWN) for Arabic. AWN includes Arabic-specific senses in addition to synsets aligned with PWN. It distinguishes between two types of hypernym relations: *subclass-of* for concepts and *instance-of* for objects.  
+  🔗 [AWN Website](http://globalwordnet.org/resources/arabic-wordnet/)
+
+- **Open Multilingual WordNet**  
+  A multilingual WordNet that links concepts and synsets to PWN. Only concepts that can be aligned with PWN are retained; others are discarded.  
+  🔗 [OMW](https://omwn.org/omw1.html)
+
+- **The Arabic Ontology**  
+  An ontology using *subsumption* as a backbone relation, along with other semantic links like *InstanceOf*, *PartOf*, *SameAs*, and *SubClassOf*. It contains instantiable concepts rooted in expert, scientific, and commonsense knowledge.  
+  🔗 [Arabic Ontology](https://ontology.birzeit.edu/)
+
+- **RADIF Thesaurus (for Antonymy and Synonymy)**  
+  A resource containing synonyms, antonyms, rhymes (qawafi), and plurals extracted from the Radif mobile application.  
+  🔗 [GitHub Repo](https://github.com/mdanok/ArabicLT)  
+  🔗 [Radif App on Play Store](https://play.google.com/store/apps/details?id=com.tahadz.radif_dictionary)
+
+- **Qur’an Ontology**  
+  Covers Quranic chapters, verses, lemmas, roots, pronouns, named entities, and events.  
+  🔗 [Qur’an Ontology](http://www.quranontology.com/)
+
