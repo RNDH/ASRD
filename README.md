@@ -27,3 +27,28 @@ Five Arabic semantic resources were used as the foundation for constructing the 
   Covers Quranic chapters, verses, lemmas, roots, pronouns, named entities, and events.  
   🔗 [Qur’an Ontology](http://www.quranontology.com/)
 
+## 📊 Number of Examples per Semantic Relation Type
+
+| **Relation Type**       | **Number of Examples** |
+|-------------------------|------------------------:|
+| hyponym                | 625,979                |
+| hypernym               | 621,422                |
+| synonym                | 327,952                |
+| verb_groups            | 26,438                 |
+| entailments            | 12,289                 |
+| antonym                | 12,033                 |
+| causes                 | 7,832                  |
+| has_instance           | 3,281                  |
+| is_instance            | 3,281                  |
+| part_meronyms          | 2,197                  |
+| part_holonyms          | 2,192                  |
+| member_meronyms        | 1,172                  |
+| member_holonyms        | 1,167                  |
+| attributes             | 588                    |
+| similar                | 406                    |
+| also_sees              | 328                    |
+| substance_holonyms     | 187                    |
+| substance_meronyms     | 187                    |
+| **Total**              | **1,648,931**          |
+## Contact Author 
+Randah Alharbi (raharbi@uqu.edu.sa)
