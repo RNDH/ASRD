@@ -2,6 +2,8 @@
 
 ASRD
 Arabic Lexical Semantic Relation Daraset contains over 1.6 million diacratized examples for various semantic relations. 
+[![DOI](https://zenodo.org/badge/931998777.svg)](https://doi.org/10.5281/zenodo.15486724)
+
 ## 📚 Selected Resources
 
 Five Arabic semantic resources were used as the foundation for constructing the dataset:
