@@ -1,7 +1,7 @@
-# Arabic lexical Semantic Relation Daraset (ASRD)
+# Arabic Lexical Semantic Relation Dataset (ASRD)
 
 ASRD
-Arabic Lexical Semantic Relation Daraset contains over 1.6 million diacratized examples for various semantic relations. 
+Arabic Lexical Semantic Relation Dataset contains over 1.6 million diacritized examples for various semantic relations. 
 [![DOI](https://zenodo.org/badge/931998777.svg)](https://doi.org/10.5281/zenodo.15486724)
 
 ## 📚 Selected Resources
