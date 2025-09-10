@@ -69,6 +69,6 @@ asrd_pairs = asrd_pairs.groupby(['word_1', 'word_2']).filter(lambda x: x['relati
 
 # Display first rows
 print(asrd_pairs.head())
-
+```
 ## Contact Author 
 Randah Alharbi (raharbi@uqu.edu.sa)
