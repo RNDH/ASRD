@@ -52,5 +52,23 @@ Five Arabic semantic resources were used as the foundation for constructing the 
 | substance_holonyms     | 187                    |
 | substance_meronyms     | 187                    |
 | **Total**              | **1,648,931**          |
+## Example Usage
+
+```python
+import pandas as pd
+
+# Load the dataset (after unzipping the downloaded file)
+# Source: https://zenodo.org/records/16879385/files/RNDH/ASRD-v2.0.zip
+asrd = pd.read_csv("ASRD_v2.csv", encoding="utf-8")
+
+# Select only pairs and label
+asrd_pairs = asrd[['word_1', 'word_2', 'relation']]
+
+# Remove multi-label pairs
+asrd_pairs = asrd_pairs.groupby(['word_1', 'word_2']).filter(lambda x: x['relation'].nunique() == 1)
+
+# Display first rows
+print(asrd_pairs.head())
+
 ## Contact Author 
 Randah Alharbi (raharbi@uqu.edu.sa)
